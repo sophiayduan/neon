@@ -34,8 +34,8 @@ tile_grid = displayio.TileGrid(bitmaps[0], pixel_shader=bitmaps[0].pixel_shader)
 group = displayio.Group()
 group.append(tile_grid)
 display.root_group = group
-start = 0
-end = 24
+start = 8
+end = 23
 hour = datetime.datetime.now().hour
 
 def update_clock():
